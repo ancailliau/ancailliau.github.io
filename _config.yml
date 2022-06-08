@@ -4,7 +4,12 @@ description: "My brain dump." # This will show up in places like twitter, linked
 
 twitter_username: "ancailliau"
 github_username: "ancailliau"
-linkedin_username: "linkedinuser"
+linkedin_username: "ancailliau"
+
+show_excerpts: true
+
+header_pages:
+  - notes.md
 
 theme: "minima"
 
