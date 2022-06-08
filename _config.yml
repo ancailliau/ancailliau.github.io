@@ -9,7 +9,7 @@ linkedin_username: "ancailliau"
 show_excerpts: true
 
 header_pages:
-  - notes.md
+  - /k8s/
 
 theme: "minima"
 

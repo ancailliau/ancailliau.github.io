@@ -5,6 +5,32 @@ body {
   color: #7C8DB3;
 }
 
+code {
+  font-family: "Consolas", "Monaco", monospace;
+}
+
+table {
+  color: #7C8DB3;
+  margin: 15px 0;
+  padding: 0;
+  width: 100%;
+}
+
+table th {
+    background-color: #03397c;
+}
+
+table,
+table tr,
+table th,
+table td {
+  border: 0px none;
+}
+
+table tr:nth-child(even) {
+    background-color: #02224a;
+}
+
 .site-header {
     border: 0px none;
     min-height: 55.95px;
@@ -12,7 +38,7 @@ body {
 }
 
 .site-title, .site-title:visited {
-  color: white;
+  color: #B3B6B7;
   font-size: 1.5em;
   font-weight: bold;
 }
@@ -21,27 +47,55 @@ body {
   text-decoration: none;
 }
 
+.page-content {
+    padding: 0px 0;
+}
+
+h1.page-heading {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #F7F3E3;
+}
+
 article h1.post-title {
   font-size: 1.5em;
   font-weight: bold;
+  color: #F7F3E3;
 }
 
 article .post-content h2 {
   font-size: 1.3em;
   font-weight: bold;
   margin: 2em 0 1em;
+  color: #E52C5D;
 }
 
-.post-list h3,
-article .post-content h3 {
+.post-list h2,
+.post-list h2 a.post-link {
   font-size: 1em;
   font-weight: bold;
   margin: 2em 0 1em;
 }
 
-.post-list h3 a::before {
+.post-list h2 a.post-link {
+  font-size: 1.3em;
+}
+
+article .post-content h3 {
+  font-size: 1.1em;
+  color: #E52C5D;
+  font-weight: bold;
+  margin: 2em 0 1em;
+}
+
+.post-list li {
+  margin-bottom: 4em;
+}
+
+.post-list h2 a::before {
   content: "#";
   display: inline-block;
+  width: 30px;
 }
 
 article h1::before,
@@ -57,15 +111,27 @@ article h3::before {
 }
 
 a, a:hover, a:visited {
-  color: #E52C5D;
+  color: #C50773;
+  text-decoration: none;
 }
 
 article p {
-  padding-left: 30px;
+  padding: 0 30px;
 }
 
-p em {
-        color: #7DEDC5;
+p em, p strong {
+  color: #7DEDC5;
+}
+
+article footer {
+  margin: 0 30px;
+  padding: 15px 0;
+  border-top: 1px solid #37445f;
+}
+
+article footer p {
+  margin: 0;
+  padding: 0;
 }
 
 .site-footer {
@@ -74,4 +140,48 @@ p em {
 
 .svg-icon {
   fill: #37445f;
+}
+
+ul, ol {
+  margin-left: 45px;
+}
+
+ul.none {
+  list-style-type: none;
+  margin-left: 30px;
+}
+
+ul li, ol li {
+    list-style-position: outside;
+  line-height: 1.5em;
+}
+
+.post-meta {
+  margin: 1em 0 1em 30px;
+  padding: 0;
+  color: #576b96;
+}
+
+.post-excerpt {
+  margin-left: 30px ;
+}
+
+pre, code {
+  font-size: 1em;
+  color: black;
+}
+
+code {
+  background: #010b19;
+  color: #2080f9;
+  border-color: #0550ae;
+  padding: 3px 5px;
+}
+
+article pre {
+  margin: 15px 30px;
+}
+
+.hljs {
+  background: none;
 }

@@ -1,7 +1,8 @@
 ---
 layout: page
-title:  Kubernetes (K8S)
-permalink: /notes/kubernetes
+title:  Kubernetes
+path: /k8s/
+permalink: /k8s/
 excerpt_separator: <!--more-->
 ---
 
@@ -15,14 +16,15 @@ especially as I would like to offer software-as-a-service in the near future.
 I'm mostly developping in C# with .NET Core framework, I'm thereby vastly
 biased and focused on running that specific type of software on K8S.
 
-## Ressources
+* [Cheat Sheet](/k8s/cheatsheet)
+* [Notes: Kubernetes in Action (Marko Lukša, Manning)](/k8s/book-in-action)
 
-I watched [.NET Microservices – Full
+## References
+
+* Video [.NET Microservices – Full
 Course](https://www.youtube.com/watch?v=DgVjEo3OGBI) on Youtube by [Les
-Jackson](https://dotnetplaybook.com/) which was an eye opener. I followed the
-complete course and re-developped the application along. You can find all my
+Jackson](https://dotnetplaybook.com/). You can find all my
 code on [GitHub](https://github.com/ancailliau/LesJacksonS04E03).
-
-I'm currently reading [Kubernetes in
+* [Kubernetes in
 Action](https://www.manning.com/books/kubernetes-in-action-second-edition) by
 [Marko Lukša](https://twitter.com/markoluksa).
