@@ -28,3 +28,13 @@ code on [GitHub](https://github.com/ancailliau/LesJacksonS04E03).
 * [Kubernetes in
 Action](https://www.manning.com/books/kubernetes-in-action-second-edition) by
 [Marko Lukša](https://twitter.com/markoluksa).
+
+To read:
+
+* Core Kubernetes
+* The Kubernetes Book
+* Kubernetes Preparing for the CKA and CKAD Certifications by Philippe Martin
+* Kubernetes in Production Best Practices
+
+* Pro Microservices in .NET 6
+* Production Kubernetes
