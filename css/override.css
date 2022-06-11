@@ -150,14 +150,20 @@ ul, ol {
   margin-left: 45px;
 }
 
+ul ul {
+  margin-left: 15px;
+}
+
+
 ul.none {
   list-style-type: none;
   margin-left: 30px;
 }
 
 ul li, ol li {
-    list-style-position: outside;
+  list-style-position: outside;
   line-height: 1.5em;
+  padding-left: 10px;
 }
 
 .post-meta {
@@ -195,5 +201,13 @@ article pre {
 }
 
 .hljs {
-  background: none;
+  background: none !important;
+}
+
+span.green {
+  color: #7DEDC5;  
+}
+
+span.red {
+  color: #E52C5D;
 }

@@ -8,16 +8,19 @@ This pages summarizes my notes for the book [Kubernetes in
 Action](https://www.manning.com/books/kubernetes-in-action-second-edition) by
 [Marko Lukša](https://twitter.com/markoluksa).
 
-Table of content:
+**Part II: Core Concepts**
 
-* Pods ✓
-* Replication ✓
-* Services ✓
-* Volumes ✓
-* ConfigMaps and Secrets
-* Communiation with application
-* Deployments
-* StatefulSets
+* ✅ Pods
+* ✅ Replication
+* ✅ Services
+* ✅ Volumes
+* ⌛ ConfigMaps and Secrets 
+* ⌛ Communiation with application
+* ⌛ Deployments
+* ⌛ StatefulSets
+
+**Part III: Beyond the basics**
+
 * Internals
 * Securing API
 * Securing pods and network
@@ -26,6 +29,10 @@ Table of content:
 * Scheduling
 * Best Practice
 * Extending K8S
+
+Legend:
+* ✅ Notes available below
+* ⌛ Chapter read and notes in progress
 
 ### Pods
 
@@ -90,7 +97,7 @@ Kubernetes can probe a container with:
 * A *TCP* Socket probe tries to open a TCP connection to the specified port of the container.
 * An *Exec* probe executes an arbitrary command inside the container and checks the command’s exit status code.
 
-Kubernetes allows you to also define a **readiness probe** for your pod. Three types of readiness probes as for liveness probes.
+Kubernetes allows you to also define a **readiness probe** for your pod. Three types of readiness probes as for liveness probes. Readiness probes are also useful when rolling out new deployments, as a bad pod will be prevented to take over all the running ones if its readiness probe fails.
 
 Unlike liveness probes, if a container fails the readiness check, it won’t be killed or restarted. The readiness probe is checked periodically—every 10 seconds by default.
 

@@ -29,7 +29,7 @@ code on [GitHub](https://github.com/ancailliau/LesJacksonS04E03).
 Action](https://www.manning.com/books/kubernetes-in-action-second-edition) by
 [Marko Lukša](https://twitter.com/markoluksa).
 
-To read:
+### Todo
 
 * Core Kubernetes
 * The Kubernetes Book
