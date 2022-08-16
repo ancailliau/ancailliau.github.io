@@ -1,6 +1,6 @@
 ---
 title: Introducing SynSharp
-tags: jekyll
+tags: synsharp synapse threat-intel
 ---
 
 [Synapse](https://vertex.link/synapse) is a collaborative cyber threat
