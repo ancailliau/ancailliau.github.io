@@ -1,5 +1,5 @@
 ---
-title: Developping Sigma rules with Chainsaw
+title: Developing Sigma rules with Chainsaw
 tags: sigma threat-hunting
 ---
 
