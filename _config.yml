@@ -22,6 +22,7 @@ kramdown:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jemoji
 
 titles_from_headings:
   strip_title: true
