@@ -25,7 +25,7 @@ print(filenames)
 total_tags = []
 for filename in filenames:
     print("Checking " + str(filename) )
-    f = open(filename, 'r', encoding='utf8')
+    f = open(filename, 'r')
     crawl = False
     for line in f:
         if crawl:
