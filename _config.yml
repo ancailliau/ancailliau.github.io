@@ -1,7 +1,14 @@
 title: "ancailliau's brain dump"
-author: "Antoine Cailliau"
-description: "My brain dump." # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
+author:
+  name: "Antoine Cailliau"
+  twitter: ancailliau
+  linkedin: ancailliau
+tagline: "Antoine Cailliau's brain dump | bits and bytes about computers and cybersecurity"
+description: "Antoine Cailliau's brain dump, bits and bytes about computers and cybersecurity"
+url: https://ancailliau.github.io/
 
+google_site_verification: "KNazH1EP7iwZpFNn0TrpOxDew_UskQwI6YZCYbDN6TQ"
+  
 twitter_username: "ancailliau"
 github_username: "ancailliau"
 linkedin_username: "ancailliau"
@@ -23,6 +30,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jemoji
+  - jekyll-seo-tag
 
 titles_from_headings:
   strip_title: true

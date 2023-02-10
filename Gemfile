@@ -21,6 +21,9 @@ gem "minima", "~> 2.0"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
+  gem 'jekyll-seo-tag'
+  gem 'jekyll-sitemap'
+  gem 'jemoji', "~> 0.12.0"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -41,5 +44,6 @@ gem "kramdown-parser-gfm"
 # do not have a Java counterpart.
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
-gem 'jemoji', "~> 0.12.0"
 gem "webrick", "~> 1.8"
+
+
