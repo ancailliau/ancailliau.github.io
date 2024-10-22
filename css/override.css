@@ -106,6 +106,18 @@ article h3::before {
   width: 30px;
 }
 
+article h2::before {
+  content: "##";
+  width: 40px;
+  margin-left: -10px;
+}
+
+article h3::before {
+  content: "###";
+  width: 50px;
+  margin-left: -20px;
+}
+
 .site-nav .page-link {
     color: #7DEDC5;
 }
