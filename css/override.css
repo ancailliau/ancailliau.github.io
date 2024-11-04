@@ -223,3 +223,60 @@ span.green {
 span.red {
   color: #E52C5D;
 }
+
+/* Pagination */
+
+.pager {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  font-size: 14px;
+}
+
+.pagination {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 4em;
+}
+
+.pagination li {
+  margin: 0 5px;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  color: #7C8DB3;
+}
+
+.pagination a {
+  padding: 8px 12px;
+  color: #7C8DB3;
+  text-decoration: none;
+  border: 1px solid #576b96;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.pagination a:hover {
+  background-color: #576b96;
+  color: white;
+}
+
+.pagination .current-page {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  font-weight: normal;
+  color: #ddd;
+  background-color: #576b96;
+  border-radius: 4px;
+}
+
+.pagination .pager-edge {
+  display: flex;
+  align-items: center;
+  color: #7C8DB3;
+  font-weight: normal;
+}
+

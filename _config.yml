@@ -14,6 +14,7 @@ github_username: "ancailliau"
 linkedin_username: "ancailliau"
 
 show_excerpts: true
+paginate: 5
 
 header_pages:
   - /k8s/
@@ -31,6 +32,7 @@ plugins:
   - jekyll-sitemap
   - jemoji
   - jekyll-seo-tag
+  - jekyll-paginate
 
 titles_from_headings:
   strip_title: true
