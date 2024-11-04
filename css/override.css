@@ -61,6 +61,10 @@ article h1.post-title {
   font-size: 1.5em;
   font-weight: bold;
   color: #F7F3E3;
+  line-height: 1.5em;
+  margin-left: 0px;
+  padding-left: 30px;
+  text-indent: -30px;
 }
 
 article .post-content h2 {
@@ -68,6 +72,9 @@ article .post-content h2 {
   font-weight: bold;
   margin: 2em 0 1em;
   color: #E52C5D;
+  margin-left: 0px;
+  padding-left: 30px;
+  text-indent: -30px;
 }
 
 .post-list h2,
@@ -104,6 +111,7 @@ article h3::before {
   content: "#";
   display: inline-block;
   width: 30px;
+  text-indent: 0px;
 }
 
 article h2::before {
@@ -174,7 +182,7 @@ ul.none {
 
 ul li, ol li {
   list-style-position: outside;
-  line-height: 1.5em;
+  line-height: 1.8em;
   padding-left: 10px;
 }
 
@@ -280,3 +288,21 @@ span.red {
   font-weight: normal;
 }
 
+/* Callout */
+
+.callout {
+  padding: 15px;
+  margin: 30px 0 30px 30px;
+  border: 1px solid;
+  border-left: 5px solid;
+  border-radius: 4px;
+  border-color: #7C8DB3;
+}
+
+.callout-title {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1em;
+  font-weight: bold;
+}
